@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: 'Josefin Sans', 'Poppins', 'Futura', sans-serif;
+  background-image: url ("/img/image.png");
+  background-repeat: repeat;
+  background-color: crimson;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vh;
+  height: 60vh;
+  margin: auto;
+  gap: 2%;
+
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  width: 18%;
+  height: 48%;
+  cursor: pointer;
+}
+
+.princess {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/6/6e/Link_to_the_Past_Zelda.png);
+  
+  background-size: 100%;
+}
+.sheik {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/6/69/SheikZelda.png/180px-SheikZelda.png);
+
+  background-size: 112px 195px;
+
+}
+
+.navi {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/0/04/Navi_%28The_Legend_of_Zelda%29.png);
+
+  background-size: 112px 195px;
+  background-repeat: no-repeat;
+}
+.ganondorf {
+  background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-ocarina-of-time-3d/1/12/Ganondorf.png?width=640);
+
+  background-size: 112px 195px;
+
+}
+.link {
+  background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-ocarina-of-time-3d/8/81/Young_link_and_adult_link_by_legend_tony980-d4ebyg1.png?width=640);
+
+  background-size: 112px 195px;
+
+}
+
+.card.hidden {
+  background-image: url(https://play.nintendo.com/images/PLAY-5219-LoZSSHD-MM01-576x576back.05cd2876.png);
+  
+  background-repeat: no-repeat;
+  background-size: 112px 195px;
+}
+
+.card.hidden:hover {
+  box-shadow: 4px 4px 4px 4px white;
+}
